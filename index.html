@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>
+        Agendamento NAF
+    </title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+    <span id="menu">
+        <il id="logo">
+            <img name="logo" src="./assets/Unifeso_logomarca.png" height="30">
+        </il>
+        <il id="titulo">
+            NAF - Núcleo de Atendimento Fiscal
+        </il>
+        <il id="acesso">
+            <a href="www.google.com.br" target="_blank">Acesso Restrito</a>
+        </il>
+    </span>
+    
+    <div id="container">
+    <div id="formulario">
+    <form method="get" name="login" action="Login">
+    
+    <fieldset>
+        <legend>Agendar atendimento</legend>
+            <br>
+        <label>Nome Completo: </label><br>
+        <input class="preenhce" id="nome" type="text" name="nome" required="required" alt="Informe seu Nome Completo.">
+            <br><br>
+        <label>E-mail: </label><br>
+        <input class="preenhce" id="email" type="text" name="email" required="required" alt="Informe seu melhor E-mail.">
+            <br><br>
+        <label>Telefone: </label><br>
+        <input class="preenhce" id="telefone" type="number" name="telefone" required="required" alt="Informe um telefone para contato.">
+            <br><br>
+        
+        <label>
+            Dia: 
+        </label>
+            <br>
+        <input class="seleciona" id="dia" type="date" name="dia" required="required" alt="Informe o dia para seu atendimento.">
+            <br><br>
+        <label>
+            Horário:
+        </label>
+            <br>
+        <select class="seleciona" name="dia" alt="Informe o horário para seu atendimento.">
+            <option value="--:--">--:--</option>
+            <option value="10:00">10:00</option>
+            <option value="10:30">10:30</option>
+            <option value="11:00">11:00</option>
+            <option value="10:30">11:30</option>
+            <option value="12:00">12:00</option>
+            <option value="12:30">12:30</option>
+            <option value="13:00">13:00</option>
+            <option value="13:30">13:30</option>
+            <option value="14:00">14:00</option>
+            <option value="14:30">14:30</option>
+        </select>
+                <br><br><br>
+        
+        <input classe="clica" type="submit" name="enviar" value="Enviar">
+        <input classe="clica" type="reset" name="limpar" value="Limpar">
+    </fieldset>
+
+    </div>
+</div>
+    <br>
+    <footer>
+        Saiba mais sobre o NAF do Unifeso  <a href="./naf.html" alt="Conheça nosso Núcleo de Atendimento Fiscal!">clicando aqui.
+        </a>
+      </footer>
+</body>
+</html>
