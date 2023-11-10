@@ -1,3 +1,4 @@
+
 body{
 
     background-color: white;
@@ -7,7 +8,6 @@ body{
 
 #menu {
     height: 40px;
-    height: 30px;
     display: flex;
     align-items: center;
 }
@@ -34,50 +34,70 @@ body{
     text-align: right;
 }
 
+a{
+  color:rgb(17, 151, 46);
+}
 
 #container {
-
+    /* width: 20%; */
     align-items: center;
     padding: 60px 15% 0px 15%;
 }
 
 #formulario {
-
+    
     align-items: center;
     padding: 0px 10px 0px 10px;
-    margin: 40px, auto, 40px, auto;
+    margin: 40%, auto, 40%, auto;
 }
-
+/*
 input :focus, select :focus, textarea :focus{
 background-color: rgb(19, 59, 50);
 }
+
 input :hover, select :hover, textarea :hover{
 background-color: rgb(148, 228, 210);
 }
+*/
 
 input, select, textarea {
    
     border-radius: 5px;
     border-color: silver;
-    width: 50%;
+    width: 95%;
     padding: 2px; /*espaço externo*/
     margin: 2px; /*espaço interno*/
 }
 
+.seleciona {
+   
+    border-radius: 5px;
+    border-color: silver;
+    width: 40%;
+    padding: 2px; /*espaço externo*/
+    margin: 2px; /*espaço interno*/
+}
 
 fieldset {
     width: 90%;
     border-radius: 15px;
     border-color: seagreen;
-    }
+}
+label .horario {
 
+}
 legend{
     font-weight: bold;
     font-size: 14pt;
     color: rgb(160, 160, 160);
 }
 
-
 footer {
     text-align: center;
+}
+
+table{
+    text-justify: center;
+    background-color: silver;
+
 }
