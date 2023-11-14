@@ -1,88 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <title>
-        Agendamento NAF
-    </title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="./styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema NAF</title>
+    <link rel="stylesheet" href="styles_index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <span id="menu">
-        <il id="logo">
-            <img name="logo" src="./assets/Unifeso_logomarca.png" height="30">
-        </il>
-        <il id="titulo">
-            NAF - Núcleo de Atendimento Fiscal
-        </il>
-        <il id="acesso">
-            <a href="./login.html">Acesso Restrito</a>
-        </il>
-    </span>
-    <hr>
-    
-    <div id="container">
-    <div id="formulario">
-    <form method="get" name="login" action="Login">
-    
-    <fieldset>
-        <legend>Agendar atendimento</legend>
-            <br>
-        <label>Nome Completo: </label><br>
-        <input class="preenhce" id="nome" type="text" name="nome" required="required" alt="Informe seu Nome Completo.">
-            <br><br>
-        <label>E-mail: </label><br>
-        <input class="preenhce" id="email" type="text" name="email" required="required" alt="Informe seu melhor E-mail.">
-            <br><br>
-        <label>Telefone: </label><br>
-        <input class="preenhce" id="telefone" type="number" name="telefone" required="required" alt="Informe um telefone para contato.">
-            <br><br>
-        
-        <label>
-            Dia: 
-        </label>
-            <br>
-        <input class="seleciona" id="dia" type="date" name="dia" required="required" alt="Informe o dia para seu atendimento.">
-            <br><br>
-        <label>
-            Horário:
-        </label>
-            <br>
-        <select class="seleciona" name="dia" alt="Informe o horário para seu atendimento.">
-            <option value="--:--">--:--</option>
-            <option value="10:00">10:00</option>
-            <option value="10:30">10:30</option>
-            <option value="11:00">11:00</option>
-            <option value="10:30">11:30</option>
-            <option value="12:00">12:00</option>
-            <option value="12:30">12:30</option>
-            <option value="13:00">13:00</option>
-            <option value="13:30">13:30</option>
-            <option value="14:00">14:00</option>
-            <option value="14:30">14:30</option>
-        </select>
-                <br><br><br>
-        <form>
-        <button class="agendaratendimento"> 
-                Agendar
-        </button>
-         
-        <button class="agendaratendimento" type="reset"> 
-                Limpar
-        </button>
-        
-        <!-- input classe="clica" type="reset" name="limpar" value="Limpar" -->
+<div class="content">
+    <aside>
+        <img src="./assets/unifeso.png" alt="">
 
-    </fieldset>
+        <h1>Agendamento <span>NAF</span></h1>
+    </aside>
 
-    </div>
+    <main>
+         <h2>   Faça seu <span>Agendamento</span> ou entre como <span>Administrador</span>. </h2>
+
+         <div class="actions">
+            <a href="./agendamento.html">Agendamento</a>
+            <a href="./login.html">Login Administrador</a>
+         </div>
+
+         <footer>
+            <p>Para saber mais sobre o NAF:</p>
+            <a href="./naf.html">Clique Aqui!</a>
+        </footer>
+    </main>
+  
 </div>
-    <br>
-    <footer>
-        Saiba mais sobre o NAF do Unifeso  <a href="./naf.html" alt="Conheça nosso Núcleo de Atendimento Fiscal!">clicando aqui.
-        </a>
-      </footer>
 </body>
-<script src="script.js"></script>
 </html>

@@ -1,11 +1,11 @@
+/* GERAL */
 
 body{
 
     background-color: white;
-    color: rgb(4, 100, 84); /*cor do texto*/
+    color: #006b64; /*cor do texto*/
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
 
 #menu {
     height: 50px;
@@ -37,7 +37,7 @@ body{
 }
 
 a{
-  color:rgb(17, 151, 46);
+  color:#006b64;
 }
 
 #container {
@@ -45,22 +45,6 @@ a{
     align-items: center;
     padding: 60px 15% 0px 15%;
 }
-
-#formulario {
-    
-    align-items: center;
-    padding: 0px 10px 0px 10px;
-    margin: 40%, auto, 40%, auto;
-}
-/*
-input :focus, select :focus, textarea :focus{
-background-color: rgb(19, 59, 50);
-}
-
-input :hover, select :hover, textarea :hover{
-background-color: rgb(148, 228, 210);
-}
-*/
 
 button{
     border-radius: 5px;
@@ -91,7 +75,7 @@ input, select, textarea {
 fieldset {
     width: 90%;
     border-radius: 15px;
-    border-color: seagreen;
+    border-color: #006b64;
 }
 
 legend{
@@ -100,46 +84,50 @@ legend{
     color: rgb(160, 160, 160);
 }
 
-footer {
+footer, table {
     text-align: center;
 }
 
-table{
-    text-justify: center;
+/* PÁGINA AGENDAMENTO */
+
+#formulario {
+    
+    align-items: center;
+    padding: 0px 10px 0px 10px;
+    margin: 40%, auto, 40%, auto;
 }
+
+/* PÁGINA PAINEL AGENDA */
+
 td {
     width: 150px;
-    height: 20px;
+    height: 30px;
     text-align: center;
 }
-tr{
-    background-color: blanchedalmond;
 
+
+tr{
+    background-color:lightgrey
 }
+
+button, #botaopainel{
+    width: 98px;
+    margin: px;
+}
+
+
+/* PÁGINA NAF */
+
 #comentarios{
     width: 100%;
     font-size-adjust: ex-heigt 5;
     font-weight: bold;
     font-size: x-large;
     text-align: center;
-    background-color: rgb(177, 236, 177);
+    background-color: #006b64;
 }
 
-#coment1{
-    border-radius: 4px;
-    width: 100%;
-    align-items: center;
-    margin-left: 1%;
-}
-
-#coment2{
-    border-radius: 4px;
-    width: 100%;
-    align-items: center;
-    margin-left: 1%;
-}
-
-#coment3{
+#coment1, #coment2, #coment3{
     border-radius: 4px;
     width: 100%;
     align-items: center;
@@ -148,5 +136,25 @@ tr{
 
 #linha1{
     text-align: center;
-    background-color: rgb(175, 243, 184);
+    background-color: #006b64;
+    color: white;
+}
+
+/* PÁGINA PROTOCOLO */
+
+.textocentral{
+    text-align: center;
+    
+}
+
+#prot_importante{
+    color: red;
+
+}
+
+var{
+    color: #006b64;
+    background-color:aquamarine;
+    border-radius: 10px;
+   
 }

@@ -1,7 +1,7 @@
 const bot_enviar = document.querySelector('.enviarlogin');
 bot_enviar.addEventListener('click' , function(){
   alert("Acesso Concedido, Seja bem Vindo!")
-  open('agenda.html')
+  open('painel_agenda.html')
 } )
 
 const bot_agendar = document.querySelector('.agendaratendimento')
