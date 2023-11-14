@@ -20,30 +20,49 @@
             <a href="./index.html">Voltar</a>
         </il>
     </span>
+    <hr>
     
     <div id="container">
     <div id="formulario">
-    <form method="post" name="login" action="Login">
+    <form name="login" action="agenda.html">
     
-    <fieldset>
-        <legend>Acesso Restrito</legend>
-          <br>
-
-        <label>Login: </label><br>
-        <input class="preenhce" id="login" type="text" name="nome" required="required" alt="Informe seu Nome Completo.">
-            <br><br>
+        <fieldset>
+            <legend>Acesso Restrito</legend>
+            <br>
             
-        <label>Senha: </label><br>
-        <input class="preenhce" id="email" type="text" name="email" required="required" alt="Informe seu melhor E-mail.">
+            <label>
+                Login: 
+            </label>
+            <br>
+
+            <input class="preenhce" id="login" type="text" method="get" name="nome" required="required" title="Digite seu login">
+                <br><br>
+                
+            <label>
+                Senha: 
+            </label>
+            <br>
+
+            <input class="preenhce" id="email" type="text" method="post" name="email" required="required" title="Digite sua senha">
+                
             <br><br><br>
-        
-        <input classe="clica" type="submit" name="entrar" value="Entrar">
-        <input classe="clica" type="reset" name="esqueci" value="Esqueci a Senha">
-    </fieldset>
+            
+            <a href="agenda.html" onclick="">
+                <button class="enviarlogin" title="Envie para efetuar o login"> 
+                    Enviar 
+                </button> 
+            </a>
+
+            <a href="esqueci.html" title="Recupere sua Senha">
+            <br><br>
+                    Esqueci a Senha 
+            </a>
+
+        </fieldset>
 
     </div>
-</div>
+    </div>
     <br>
-
+<script src="script.js"></script>
 </body>
 </html>
