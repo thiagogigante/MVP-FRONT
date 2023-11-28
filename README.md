@@ -1,57 +1,40 @@
-# mvp
-
-<h1 align="center"> DevLinks </h1>
-
-<p align="center">
-Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB. <br/>
-<a href="https://lp.rocketseat.com.br/devlinks/inscricao?utm_source=github&utm_medium=descricao&utm_campaign=capture-devlinks&utm_term=organic&utm_content=descricao-github-mayk-brito">Estude esse projeto em formato de vídeo clicando aqui.</a>
-</p>
-
-<p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-opiniao">Minha Opinião</a>
-</p>
-
-<p align="center">
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
-</p>
+<h1 align="center"> Projeto de MVP</h1>
 
 <br>
 
+## 👨‍💻 Autores do projeto
+
+Alexandre de Oliveira Silveira - <strong>Mat. 06007233</strong>
+<br>
+Murilo Mattos Torres - <strong>Mat. 06007772</strong>
+<br>
+Thiago de Andrade Rêgo Soriano - <strong>Mat. 06007616</strong>
+
+
+## 📑 Descrição do projeto
+A disciplina de MVP aborda o conceito de Menor Produto Viável onde o foco é na soluição prática para um desenvolvimento com rapidez e baixo custo.
+Desenvolvido por alunos da Unifeso como ferramenta de avaliação da disciplina <strong>MVP Front-End Development</strong> do Curso de Tecnólogo em Análise e Desenvolvimento de Sistemas.
+
+Nele foi utilizado o conceito de MVP (Menor Produto Viável) onde o foco é a solução prática para desenvolvimento com rapidez e baixo custo.
+
+## 🎯 Objetivo e Situação problema
+
+Fomos desafiados a criar, com base nas ferramentas já estudadas de front-end, uma solução digital que permita à população agendar seus atendimentos no NAF (Núcleo de apoio contábil e fiscal) de forma eficiente e conveniente. Mais especificamente, nossa meta é desenvolver um website que simplifique o processo de agendamento para aqueles que desejam obter assistência com suas declarações de Imposto de Renda e outros serviços oferecidos pelo NAF.
+
+## 👨‍🏫 Instruções para utilização
+
+O site possui dois caminhos: Um para o usuário padrão, que busca pelo atendimento do NAF e outro para o administrador da agenda que recebe os agendamentos, disponibiliza as datas e acompanha todos os cadastros realizados. Há também a possibilidade de realização de comentários onde fica aberto para utilização da população e funcionários. Parte dos recursos não está disponível por necessitar de aplicação de tecnologias ainda não praticadas pelo grupo.
+
+## 🤖 Tecnologias aplicadas
+
+Toda a estrutura do site foi elaborada com HTML e a estilização em CSS. A confirmação de login é apresentada através de JavaScript. A ferramenta principal de desenvolvimento foi o VS Code.
+
+## 🚀 Metodologias Ágeis aplicadas
+
+Realizamos o levantamento dos Requisitos Funcionais e Não Funcionais com base nos requerimentos descritos pela instituição no enunciado do desafio.
+Sprints de reuniões semanais através do Método Scrum
+
+## 💡 Prototipação;
 <p align="center">
-  <img alt="projeto DevLinks" src="./assets/capa_devlinks.jpg" width="100%">
+  <img alt="Prototipo de Baixa Qualidade" src="./assets/prototipo_baixa_fidelidade.jpeg" width="50%">
 </p>
-
-## 🚀 Tecnologias
-
-Esse projeto foi desenvolvido com as seguintes tecnologias:
-
-- HTML e CSS
-- JavaScript
-- Git e Github
-- Figma
-
-## 💻 Projeto
-
-O DevLinks é um agregador de links para usar como cartão de visitas online.
-
-- [Acesse o projeto finalizado, online](https://maykbrito.github.io/devlinks)
-
-- [Assistir aulas](https://lp.rocketseat.com.br/devlinks/inscricao?utm_source=github&utm_medium=descricao&utm_campaign=capture-devlinks&utm_term=organic&utm_content=descricao-github-mayk-brito)
-
-## 🔖 Layout
-
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1187422022288947321). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
-
-## 📝 Licença
-
-?
-
-## 👨‍💻 Meu primeiro Projeto da Faculdade
-
-Aqui entra meu comentário sobre
-
-# mvp
