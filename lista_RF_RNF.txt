@@ -1,0 +1,33 @@
+..:::::: REQUISITOS FUNCIONAIS ::::::..
+
+RF01 - Registro de Agendamento- O sistema deve permitir que os usuários registrem o agendamento para atendimento.
+
+RF02 - Seleção de Datas e Horários - No ato do agendamento o sistema deve exibir lista de datas o horários disponíveis para o atendimento.
+
+RF03 - Dados obrigatórios - O agendamento deve coletar dado obrigatórios ao usuário e retorna-los a ele confirmando o agendmaneto
+  RF03.1 - o formulário deve conter: nome, e-mail, telefone de contato
+  RF03.2 - ao confirmar o agendamento o sistema deve emitir um nº de protocolo com data e horários selecionados para o agendamento
+  RF03.3 - ao confirmar o agendamento o sistema deve enviar e-mail ao usuário com os mesmos dados apresentados no protocolo
+
+RF04 - Autenticação para Administrativo - o sistema deve exigir autenticação de login e senha para acesso administrativo
+
+RF05 - Disponibilização de Datas e Horários - o sistema deve permitir que o administrador disponibilize datas e horários,
+  RF05.1 - o sistema deve permitir a confirmação de atendimentos realizados
+  RF05.2 - o sistema deve permitir o regitro de cancelamento de atendimentos não realizados
+  RF05.3 - o sistema deve permitir que o administrador edite o cadastro de agendamento para correção de dados informados erradamente
+  RF05.4 - o sistema deve permitir o cadastro de novos usuários com permissão administrativa
+
+RF06 - Registro de comentários - o sistema permite inclusão de feedback em formato de comentários tanto pelos usuários quanto pelo administradores
+  RF06.1 - o sistema deve exibir os comentários de maneira pública
+  RF06.2 - o sistema deve possuir página explicando o tipo de atendimento prestado e para que se destina o site
+
+RF07 - Contacte o Suporte - o sistema deve possuir canal para acesso ao suporte do mesmo
+
+
+..:::::: REQUISITOS NÃO FUNCIONAIS ::::::..
+
+RNF01 - Ambiente Seguro- o sistema deve ser seguro e garantir a privacidade dos dados
+
+RNF02 - Interface Intuitiva - o sistema deve conter ambiente amigável, prático e de fácil navegação
+
+RNF03 - Desempenho Rápido - o sistema deve possuir navegação rápida e atualização imediata dos dados cadastrados sendo exibidos em tempo real no painel administrativo
