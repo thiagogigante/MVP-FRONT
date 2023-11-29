@@ -31,8 +31,9 @@ Toda a estrutura do site foi elaborada com HTML e a estilização em CSS. A conf
 
 ## 🚀 Metodologias Ágeis aplicadas
 
-Realizamos o levantamento dos Requisitos Funcionais e Não Funcionais com base nos requerimentos descritos pela instituição no enunciado do desafio.
-Sprints de reuniões semanais através do Método Scrum
+Realizamos o levantamento dos Requisitos Funcionais e Não Funcionais com base nos requerimentos descritos pela instituição no enunciado do desafio e nas funções aplicadas ao sistema.
+
+Fizemos Sprints de reuniões semanais através do Método Scrum e uso da ferramenta Trelo para organizar e acompanhar as tarefas realizadas, aguandando e com dificuldade.
 
 ## 💡 Prototipação;
 
