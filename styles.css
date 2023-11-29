@@ -1,7 +1,6 @@
-/* GERAL */
+/* ELEMENTOS DE TODAS AS PÁGINAS */
 
 body{
-
     background-color: white;
     color: #006b64; /*cor do texto*/
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -55,7 +54,6 @@ button{
 }
 
 input, select, textarea {
-   
     border-radius: 5px;
     border-color: silver;
     width: 95%;
@@ -88,7 +86,7 @@ footer, table {
     text-align: center;
 }
 
-/* PÁGINA AGENDAMENTO */
+/* ELEMENTOS DA PÁGINA AGENDAMENTO */
 
 #formulario {
     
@@ -97,7 +95,7 @@ footer, table {
     margin: 40%, auto, 40%, auto;
 }
 
-/* PÁGINA PAINEL AGENDA */
+/* ELEMENTOS DA PÁGINA PAINEL AGENDA */
 
 td {
     width: 150px;
@@ -105,56 +103,96 @@ td {
     text-align: center;
 }
 
-
 tr{
     background-color:lightgrey
 }
 
-button, #botaopainel{
-    width: 98px;
-    margin: px;
+/*Botões Superiores do Painel*/
+
+div, .container_botoes_superiores{
+    display: flex;
 }
 
 
-/* PÁGINA NAF */
 
-#comentarios{
-    width: 100%;
-    font-size-adjust: ex-heigt 5;
-    font-weight: bold;
-    font-size: x-large;
-    text-align: center;
-    background-color: #006b64;
-}
 
-#coment1, #coment2, #coment3{
-    border-radius: 4px;
-    width: 100%;
-    align-items: center;
-    margin-left: 1%;
-}
 
-#linha1{
+#linha1{ /* Cabeçalho da Tabela no Painel*/
     text-align: center;
     background-color: #006b64;
     color: white;
+}
+
+button, #botaopainel{
+    width: 94px;
+    margin: px;
+}
+.greenicon{
+    color: green;
+}
+.redicon{
+    color: red;
+}
+.blueicon{
+    color: rgb(2, 134, 196);
+}
+
+/* ELEMENTOS DA PÁGINA NAF */
+
+#comentarios {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+h2{
+    text-align: center;
+}
+
+#fotoatendimento {
+    text-align: center; 
+}
+#fotoatendimento img {
+    display: inline-block; 
+    border-radius: 5%;
+}
+
+
+.comentario {
+    width: 30%;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.comentario h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.comentario p {
+    color: #666;
 }
 
 /* PÁGINA PROTOCOLO */
 
 .textocentral{
     text-align: center;
-    
 }
 
 #prot_importante{
     color: red;
-
 }
 
 var{
+    text-align: center;
     color: #006b64;
-    background-color:aquamarine;
     border-radius: 10px;
-   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px 10px 10px 10px;
 }

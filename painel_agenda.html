@@ -18,7 +18,7 @@
             NAF - Núcleo de Atendimento Fiscal
         </il>
         <il id="acesso">
-             <a href="./index.html" target="_blank">Sair</a>
+             <a href="./index.html">Sair</a>
         </il>
     </span>
     <hr>
@@ -30,12 +30,31 @@
     <fieldset>
         <legend>Painel Agenda</legend>
             <br>
+    <div id="container_botoes_superiores">
+        <div class="botoes_superiores" id="botao_semana_anterior">
+            <button class="botaopainel" title="Voltar para a semana anterior">
+                <ion-icon class="blueicon" name="arrow-back-circle-outline"></ion-icon><br> 
+                Semana Anterior
+            </button> 
+        </div>
+
+        <div class="botoes_superiores" id="semana_exibida">
+            <h2>Semana de __ à __ de Novembro</h2>
+        </div>
+        <div class="botoes_superiores" id="botao_proxima_semana">
+            <button class="botaopainel" title="Avançar para a próxima semana"> 
+               <ion-icon class="blueicon" name="arrow-forward-circle-outline"></ion-icon><br>
+                Próxima Semana
+             </button> 
+         </div>
+    </div>
+            <br>
        <table>
         <tr id="linha1">
             <td class="coluna1"></td>
-            <td>Protocolo</td>
             <td>Data</td>
             <td>Horário</td>
+            <td>Protocolo</td>
             <td>Nome</td>
             <td>Telefone</td>
             <td>E-mail</td>
@@ -117,38 +136,38 @@
        </table>
 
 
-       <br><br>
-            
-            <button class="botaopainel" title="Imprimir relatório de agendamentos"> 
-                    Imprimir Relatório 
-                </button> 
-                        
+       <br><br>                      
                 <button class="botaopainel" title="Confirmar atendimento selecionado"> 
+                <ion-icon class="greenicon" name="checkmark-circle-outline"></ion-icon><br>
                     Confirmar Atendimento 
                 </button> 
 
                 <button class="botaopainel" title="Registrar cancelamento de atendimento selecionado"> 
+                    <ion-icon class="redicon" name="close-circle-outline"></ion-icon><br>
                     Registrar Cancelamento 
                 </button> 
 
                 <button class="botaopainel" title="Editar agendamento selecionado"> 
+                    <ion-icon class="blueicon" name="create-outline"></ion-icon><br>
                      Editar Agendamento
                 </button>
-
-                <button class="botaopainel" title="Cadastrar Data e Hora disponíveis"> 
+                
+                <button class="botaopainel" title="Imprimir relatório de agendamentos"> 
+                <ion-icon class="blueicon" name="print-outline"></ion-icon><br>
+                    Imprimir Relatório 
+                </button> 
+                
+                <button class="botaopainel" title="Cadastrar Data e Hora disponíveis">
+                    <ion-icon class="blueicon" name="calendar-outline"></ion-icon><br>
                      Cadastrar Data e Hora
                 </button> 
 
-                <button class="botaopainel" title="Cadastrar Usuários para o Painel Agenda"> 
+                <button class="botaopainel" title="Cadastrar Usuários para o Painel Agenda">
+                    <ion-icon class="blueicon" name="person-add-outline"></ion-icon><br> 
                      Cadastrar Usuário
                 </button> 
  
-                <button class="botaopainel" title="Voltar para a semana anterior"> 
-                     Semana Anterior
-                </button> 
-                <button class="botaopainel" title="Avançar para a próxima semana"> 
-                     Próxima Semana
-                </button> 
+
 
                </fieldset>
 
@@ -158,5 +177,13 @@
         Contacte o Suporte  <a href="./painel_agenda.html" alt="Conheça nosso Núcleo de Atendimento Fiscal!">clicando aqui.
         </a>
     </footer>
+
+     <!--scrip externo (icones)-->
+      
+      <script type="module" 
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule 
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+      
 </body>
 </html>
