@@ -46,7 +46,7 @@ Representa o rascunho do projeto, após diversos esboços e brainstorm com a equ
 </p>
 <br>
 <strong>Protótipo de Média Fidelidade:</strong><br>
-Detalha melhor as cores, formatos e o fluxo entre as páginas através dos tipos de acessos.
+Detalha melhor as cores, formatos e o fluxo entre as páginas através dos tipos de acessos. Onde o botão e setas verdes simbolizam o fluxo do usuário comum afim de marcar o agendamento e o botão e setas cinzas representam o acesso administrativo.
 <p align="center">
   <img alt="Protótipo de Média Fidelidade" src="./assets/prototipo_media_fidelidade.png" width="100%">
 </p>
