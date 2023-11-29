@@ -42,7 +42,7 @@ aside h1 span, main h2 span {
 }
 
 main {
-    width: 60rem;
+    width: 55rem;
     height: 52rem;
     border-radius: 12px;
     border: 0.1rem solid rgba(0, 0, 0, 0.15);
@@ -61,10 +61,10 @@ main .actions {
 }
 
 main .actions  a{
-    border-radius: 1.2rem;
+    border-radius: 1.5rem;
     text-decoration: none;
-    font-size: 2.4rem;
-    height: 5.5rem;
+    font-size: 2rem;
+    height: 5rem;
     background-color:  #006b64;
     color: #fff;
     display: flex;
@@ -79,8 +79,8 @@ main .actions a + a {
 }
 
 main footer p {
-    font-size: 1.6rem;
-    margin-top: 8rem;
+    font-size: 1.5rem;
+    margin-top: 7rem;
     text-align: center;
 }
 
@@ -89,5 +89,5 @@ main footer a {
     font-size: 1.8rem;
     display: block;
     text-align: center;
-    color: #000;
+    color: #006b64;
 }
