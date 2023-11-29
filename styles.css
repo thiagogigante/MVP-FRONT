@@ -109,13 +109,21 @@ tr{
 
 /*Botões Superiores do Painel*/
 
-div, .container_botoes_superiores{
-    display: flex;
+#container_botoes_superiores{
+    display: flex; 
 }
-
-
-
-
+#botao_semana_anterior{
+    align-items: left;
+    flex: .2;
+}
+#semana_exibida{
+    align-items: center;
+    flex:2.0;
+}
+#botao_proxima_semana{
+    align-items: center;
+    flex: .2;
+}
 
 #linha1{ /* Cabeçalho da Tabela no Painel*/
     text-align: center;
