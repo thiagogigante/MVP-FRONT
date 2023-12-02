@@ -95,6 +95,16 @@ footer, table {
     margin: 40%, auto, 40%, auto;
 }
 
+.agendar{
+    font-style: unset;
+}
+
+/* ELEMENTOS DA PÁGINA LOGIN */
+
+.enviarlogin{
+    font-style: unset;
+}
+
 /* ELEMENTOS DA PÁGINA PAINEL AGENDA */
 
 td {
