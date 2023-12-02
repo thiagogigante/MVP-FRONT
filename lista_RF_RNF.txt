@@ -1,5 +1,6 @@
 ..:::::: REQUISITOS FUNCIONAIS ::::::..
 
+
 RF01 - Registro de Agendamento- O sistema deve permitir que os usuários registrem o agendamento para atendimento.
 
 RF02 - Seleção de Datas e Horários - No ato do agendamento o sistema deve exibir lista de datas o horários disponíveis para o atendimento.
@@ -24,7 +25,11 @@ RF06 - Registro de comentários - o sistema permite inclusão de feedback em for
 RF07 - Contacte o Suporte - o sistema deve possuir canal para acesso ao suporte do mesmo
 
 
+---------------------------------------------------------------------------
+
+
 ..:::::: REQUISITOS NÃO FUNCIONAIS ::::::..
+
 
 RNF01 - Ambiente Seguro- o sistema deve ser seguro e garantir a privacidade dos dados
 
