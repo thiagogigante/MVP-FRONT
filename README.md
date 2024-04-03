@@ -3,7 +3,7 @@
 
 <br>
 
-## 👨‍💻 Autores do projeto
+## 👨‍💻 Autores
 
 Alexandre de Oliveira Silveira - <strong>Mat. 06007233</strong>
 <br>
@@ -12,7 +12,7 @@ Murilo Mattos Torres - <strong>Mat. 06007772</strong>
 Thiago de Andrade Rêgo Soriano - <strong>Mat. 06007616</strong>
 
 
-## 📑 Descrição do projeto
+## 📑 Descrição
 A disciplina de MVP aborda o conceito de Menor Produto Viável onde o foco é na soluição prática para um desenvolvimento com rapidez e baixo custo.
 Desenvolvido por alunos da Unifeso como ferramenta de avaliação da disciplina <strong>MVP Front-End Development</strong> do Curso de Tecnólogo em Análise e Desenvolvimento de Sistemas.
 
@@ -36,7 +36,7 @@ Realizamos o levantamento dos Requisitos Funcionais e Não Funcionais com base n
 
 Fizemos Sprints de reuniões semanais através do Método Scrum e uso da ferramenta Trelo para organizar e acompanhar as tarefas realizadas, aguandando e com dificuldade.
 
-## 💡 Prototipação;
+## 💡 Prototipação
 
 Os protóripos mostram o amadurecimento da estrutura e estilo das páginas.
 
