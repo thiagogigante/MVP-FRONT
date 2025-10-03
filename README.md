@@ -43,7 +43,7 @@ Os protóripos mostram o amadurecimento da estrutura e estilo das páginas.
 <strong>Protótipo de Baixa Fidelidade:</strong><br>
 Representa o rascunho do projeto, após diversos esboços e brainstorm com a equipe, este foi o modelo selecionado para iniciar o desenvolvimento.
 <p align="center">
-  <img alt="Protótipo de Baixa Fidelidade" src="./assets/prototipo_baixa_fidelidade.jpeg" width="50%">
+  <img alt="Protótipo de Baixa Fidelidade" src="./docs/imagens/PROTOTIPO.png" width="50%">
 </p>
 <br>
 <strong>Protótipo de Média Fidelidade:</strong><br>
